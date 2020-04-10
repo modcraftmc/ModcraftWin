@@ -11,7 +11,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) throws LoginException, RateLimitedException {
-        JDA jda = new JDABuilder("NjM3NzA3MDMxODA0OTAzNDI1.Xo-wtA.C01nq67unAIS5Yrg_EcY8WKb90I").build();
+        JDA jda = new JDABuilder("non").build();
         try {
             jda.awaitReady();
         } catch (InterruptedException e) {
